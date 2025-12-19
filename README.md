@@ -72,12 +72,12 @@ Host github.com-personal
 gclone <repo_url> --profile <name> [--dest <path>] [--dry-run] [--verbose]
 ```
 
-Examples:
+Examples (GitHub shown; works with GitHub and GitLab):
 
 ```bash
-gclone git@gitlab.com:stream-flow/backend/streamflow-api.git --profile work
+gclone git@github.com:octo-org/octo-repo.git --profile work
 
-gclone https://gitlab.com/stream-flow/backend/streamflow-api.git --profile work
+gclone https://github.com/octo-org/octo-repo.git --profile work
 ```
 
 ## How it works 🧠
