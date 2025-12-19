@@ -1,6 +1,6 @@
 # gclone 🚀
 
-**gclone** is a production‑grade CLI that lets developers clone Git repositories using the correct SSH identity in one command. If you juggle multiple Git accounts (work/personal/clients), gclone eliminates mistakes and saves time by selecting the right SSH host alias automatically. ⚡️
+**gclone** is a CLI that lets developers clone Git repositories using the correct SSH identity in one command. If you juggle multiple Git accounts (work/personal/clients), gclone eliminates mistakes and saves time by selecting the right SSH host alias automatically. ⚡️
 
 ## Why gclone ✅
 
