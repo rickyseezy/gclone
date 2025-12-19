@@ -1,0 +1,7 @@
+Host gitlab.com-work
+  HostName gitlab.com
+  User git
+
+Host github.com-personal
+  HostName github.com
+  User git

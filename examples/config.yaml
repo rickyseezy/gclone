@@ -1,0 +1,7 @@
+profiles:
+  profile1:
+    ssh_host_alias: "gitlab.com-work"
+  personal:
+    ssh_host_alias: "github.com-personal"
+defaults:
+  profile: "personal"
