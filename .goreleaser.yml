@@ -32,10 +32,10 @@ archives:
 
 brews:
   - name: gclone
-    tap:
+    repository:
       owner: rickyseezy
       name: homebrew-gclone
-    folder: Formula
+    directory: Formula
     homepage: "https://github.com/rickyseezy/gclone"
     description: "Clone git repositories using SSH profile aliases."
     install: |
