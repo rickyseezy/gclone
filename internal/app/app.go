@@ -19,6 +19,7 @@ type Options struct {
 	Dest    string
 	DryRun  bool
 	Verbose bool
+	Init    bool
 }
 
 type App struct {
@@ -40,6 +41,15 @@ func New() *App {
 }
 
 func (a *App) Run(opts Options) (int, error) {
+	if opts.Init {
+		path, err := config.Init()
+		if err != nil {
+			return 1, err
+		}
+		fmt.Fprintf(a.Out, "Created config at %s\n", path)
+		return 0, nil
+	}
+
 	cfg, err := a.ConfigLoader()
 	if err != nil {
 		var missing *config.MissingConfigError

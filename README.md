@@ -65,6 +65,12 @@ defaults:
   profile: "personal"
 ```
 
+Create a starter config automatically:
+
+```bash
+gclone --init
+```
+
 ### SSH config 🔐
 
 Ensure your SSH config defines the host aliases you reference:
