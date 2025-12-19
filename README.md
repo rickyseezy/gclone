@@ -20,6 +20,19 @@ brew install gclone
 ```
 
 > Note: gclone is currently distributed via the official tap. Homebrew/core requires a notability threshold; we’ll submit once the repo meets it.
+> If Homebrew reports outdated Command Line Tools, use the one‑line installer below as a fallback.
+
+### One‑line install (no Homebrew / no CLT required) ⚡
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/rickyseezy/gclone/main/install.sh | sh
+```
+
+If you want a custom location:
+
+```bash
+GCLONE_INSTALL_DIR=~/.local/bin curl -fsSL https://raw.githubusercontent.com/rickyseezy/gclone/main/install.sh | sh
+```
 
 ### Go (direct) 🧰
 
